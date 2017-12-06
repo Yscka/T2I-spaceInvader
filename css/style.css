@@ -1,0 +1,12 @@
+header{
+    border-bottom: 1px solid;
+}
+
+#game-canvas{
+    margin: auto;
+    position: relative;
+    left: 20%;
+}
+p{
+    clear: both;
+}
