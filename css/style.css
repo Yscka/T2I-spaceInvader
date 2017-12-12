@@ -1,21 +1,20 @@
 /*POLICES*/
 
 @font-face {
-	font-family: "Brandon_reg";
-	src: url('../fonts/brandon/Brandon_reg.otf');
+	font-family: "Roboto-Regular";
+	src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+
 }
 @font-face {
-	font-family: "Brandon_thin";
-	src: url('../fonts/brandon/Brandon_thin.otf');
+	font-family: "Roboto-BoldCondensed";
+	src: url('../assets/fonts/Roboto/Roboto-BoldCondensed.ttf');
 }
+
 @font-face {
-	font-family: "Brandon_bld";
-	src: url('../fonts/brandon/Brandon_bld.otf');
+	font-family: "Roboto-Medium";
+    src: url('../assets/fonts/Roboto/Roboto-Medium.ttf');
 }
-@font-face {
-	font-family: "Brandon_reg_it";
-	src: url('../fonts/brandon/Brandon_reg_it.otf');
-}
+
 
 /*BACKGROUND ANIME*/
 
@@ -73,8 +72,8 @@
 body{
     background:#000 url(stars6.jpg) repeat top center;
     z-index:0;
-    font-family: "Brandon_bld";
     color: white;
+    font-family: "Roboto-Regular";
 }
 
 header{
@@ -94,19 +93,26 @@ header{
 p{
     clear: both;
 }
-
+/* score.html */
 table {
     width:40%;
     border-spacing: 10px;
     border: 1px solid black;
     position: center;
+    margin: auto;
 }
 
 th, td {
     border-spacing: 10px;
 }
+#score{
+    margin-top: 10%;
+   text-align: center;
+}
 
-#contact { 
+/* about.html */
+#contact {
+    margin-left: 35%;
 	text-shadow:0 1px 0 #FFF;
 	border-radius:4px;
 	-webkit-border-radius:4px;
@@ -114,7 +120,12 @@ th, td {
 	padding:25px;
 	
 }
-
+#about{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
 label { 
 	cursor:pointer;
 	margin:4px 0;
@@ -160,7 +171,7 @@ ul {
 
 li {
     float: left;
-    font-family: "Brandon_reg";
+
 }
 
 li a {
@@ -169,6 +180,7 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    font-size: 19pt;
 }
   
 
@@ -178,11 +190,55 @@ li a {
 
 
 #titre {
-    display: inline-block
+    font-family: "Roboto-BoldCondensed";
+    display: inline-block;
+    font-size: 29pt;
+    margin-left: 10px;
 }
 
 #nav-bar {
+    margin-top: 20px;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+}
+
+/* home.html */
+#logo-centre{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#logo-centre img {
+    max-width: 100%;
+    height: auto;
+    }
+#intro{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#intro h1{
+    color:#f6e58d;
+    margin-bottom: 30px;    
+}
+#intro p{
+    margin-bottom: 30px;
+
+}
+#commencer{
+    background: none;
+    color: white;
+    font-family: "Roboto-Medium";
+    font-size: 22pt;
+    border-radius: 16.5px;
+    border-color: #f9A918;
+    text-transform: uppercase;
+    width:20%;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }

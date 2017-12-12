@@ -4,7 +4,7 @@ function ajouter(balise, texte){
     balise.appendChild(contenu);
     return balise;
 }
-var btn = document.getElementById('btn');
+var btn = document.getElementById('commencer');
 var login = document.getElementById('home');
 var logged = document.getElementById('start');
 btn.onclick= function () {{
