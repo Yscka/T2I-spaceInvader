@@ -35,14 +35,10 @@
 }
 
 
-.stars {
-  background:#000 url(stars6.jpg) repeat top center;
-  z-index:0;
-}
-
 .twinkling{
   background:transparent url(twinkling.png) repeat top center;
-  z-index:1;
+
+    z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
@@ -78,6 +74,8 @@
 	src: url('../fonts/brandon/Brandon_reg_it.otf');
 }
 body{
+    background:#000 url(stars6.jpg) repeat top center;
+    z-index:0;
     font-family: "Brandon_bld";
     color: white;
 }
