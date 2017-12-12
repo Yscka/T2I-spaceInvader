@@ -666,7 +666,7 @@
   }
   
   function drawBottomHud() {
-    ctx.fillStyle = '#02ff12';
+    ctx.fillStyle = '#f9a918';
     ctx.fillRect(0, CANVAS_HEIGHT - 30, CANVAS_WIDTH, 2);
     fillText(player.lives + ' x ', 10, CANVAS_HEIGHT - 7.5, 'white', 20);
     ctx.drawImage(spriteSheetImg, player.clipRect.x, player.clipRect.y, player.clipRect.w, 
