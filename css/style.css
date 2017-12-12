@@ -161,20 +161,28 @@ textarea {
 
   
 /*MENU*/
+@media screen and (max-width : 760px){
+    .navigation  li {
+        margin-bottom: 1px;
+    }
+    .navigation  ul li, li a {
+        width: 100%;
+    }
+}
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.navigation li {
     float: left;
 
 }
 
-li a {
+.navigation li a {
     display: block;
     color: white;
     text-align: center;
@@ -200,7 +208,6 @@ li a {
     margin-top: 20px;
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
 }
 
 /* home.html */
@@ -239,6 +246,4 @@ li a {
     text-transform: uppercase;
     width:20%;
     margin: auto;
-    max-width: 100%;
-    height: auto;
 }
