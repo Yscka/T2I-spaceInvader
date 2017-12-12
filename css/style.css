@@ -1,3 +1,23 @@
+@font-face {
+	font-family: "Brandon_reg";
+	src: url('../fonts/brandon/Brandon_reg.otf');
+}
+@font-face {
+	font-family: "Brandon_thin";
+	src: url('../fonts/brandon/Brandon_thin.otf');
+}
+@font-face {
+	font-family: "Brandon_bld";
+	src: url('../fonts/brandon/Brandon_bld.otf');
+}
+@font-face {
+	font-family: "Brandon_reg_it";
+	src: url('../fonts/brandon/Brandon_reg_it.otf');
+}
+body{
+    font-family: "Brandon_bld";
+}
+
 header{
     border-bottom: 1px solid;
 }
@@ -20,6 +40,7 @@ table {
 th, td {
     border-spacing: 10px;
 }
+
 #contact { 
 	text-shadow:0 1px 0 #FFF;
 	border-radius:4px;
@@ -30,10 +51,10 @@ th, td {
 	
 }
 
-#formulairedecontact label { 
+label { 
 	cursor:pointer;
 	margin:4px 0;
-	color:#ed7700;
+	color: #f9A918;
 	display:block;
 	font-weight:800;
 	
