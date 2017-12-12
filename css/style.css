@@ -91,6 +91,13 @@ header{
     position: relative;
     left: 20%;
 }
+ul {
+    list-style: none;
+}
+li a {
+    display: inline-block;
+    width: 60px;
+}
 
 a{
     color: white;
