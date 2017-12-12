@@ -35,14 +35,10 @@
 }
 
 
-.stars {
-  background:#000 url(stars6.jpg) repeat top center;
-  z-index:0;
-}
-
 .twinkling{
   background:transparent url(twinkling.png) repeat top center;
-  z-index:1;
+
+    z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
@@ -50,10 +46,6 @@
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }
-
-
-
-
 
 
 
@@ -78,6 +70,8 @@
 	src: url('../fonts/brandon/Brandon_reg_it.otf');
 }
 body{
+    background:#000 url(stars6.jpg) repeat top center;
+    z-index:0;
     font-family: "Brandon_bld";
     color: white;
 }
@@ -92,15 +86,22 @@ header{
     left: 20%;
 }
 ul {
-    list-style: none;
-}
-li a {
-    display: inline-block;
-    width: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-a{
+li {
+    float: left;
+    font-family: "Brandon_reg";
+}
+
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
 }
 
