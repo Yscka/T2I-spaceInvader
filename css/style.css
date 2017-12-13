@@ -56,7 +56,7 @@
 
 
 .twinkling{
-  background:transparent url(twinkling.png) repeat top center;
+  background:transparent url(../assets/img/twinkling.png) repeat top center;
 
     z-index:1;
 
@@ -70,7 +70,7 @@
 
 
 body{
-    background:#000 url(stars6.jpg) repeat top center;
+    background:#000 url(../assets/img/stars6.jpg) repeat top center;
     z-index:0;
     color: white;
     font-family: "Roboto-Regular";
@@ -223,6 +223,14 @@ th, td {
     margin-top: 2%;
 }
 
+#score h2 {
+    margin-bottom: 1%;
+    color: #f9A918
+}
+#score p {
+    color: #f6e58d;
+}
+
 #vaisseau {
     width:10%;
     position: absolute;
@@ -231,21 +239,29 @@ th, td {
 /* about.html */
 #contact {
     margin-left: 35%;
-    text-shadow:0 1px 0 #FFF;
     border-radius:4px;
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
-    padding:25px;
-
 }
 #about{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    margin-bottom: 5%;
 }
+
+#about h2 {
+    margin-bottom: 2%;
+    color: #f9A918
+
+}
+
+#about p {
+    color: #f6e58d;
+}
+
 label {
-    cursor:pointer;
     margin:4px 0;
     color: #f9A918;
     display:block;
@@ -261,8 +277,27 @@ input {
     -moz-border-radius:4px;
     border:1px solid;
     padding:10px;
-
 }
+
+.sendButton {
+    background: none;
+    color: white;
+    font-family: "Roboto-Medium";
+    font-size: 1vw;
+    border-radius: 16.5px;
+    border-color: #f9A918;
+    text-transform: uppercase;
+    width:20%;
+    transition-duration: 0.4s;
+    
+}
+
+.sendButton:hover {
+    background-color: #f9A918;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 
 textarea {
     display:block;
@@ -289,6 +324,7 @@ article {
 article h2 {
     margin-bottom: 2%;
     font-family: "Roboto-Regular";
+    color: #f9A918;
 }
 
 article p {
