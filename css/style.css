@@ -218,12 +218,18 @@ th, td {
     text-align: center;
 }
 #score{
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
 }
 #scores{
     margin-top: 2%;
 }
+
+#vaisseau {
+    width:10%;
+    position: absolute;
+}
+
 /* about.html */
 #contact {
     margin-left: 35%;
