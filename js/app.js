@@ -26,10 +26,10 @@ var btn = document.getElementById('commencer');
 var login = document.getElementById('home');
 var logged = document.getElementById('start');
 btn.onclick= function () {
-        home.style.display = 'none';
-        start.style.display ='inline-block';
-        logged.appendChild(Welcome);
-    };
+    home.style.display = 'none';
+    start.style.display ='inline-block';
+    logged.appendChild(Welcome);
+};
 
 
 Example

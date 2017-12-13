@@ -9,10 +9,10 @@
     <link href="../css/jeu.css" rel="stylesheet">
 </head>
 <body>
-    <div class="twinkling">
-<header>
+<div class="twinkling">
+    <header>
     
-    <nav id="nav-bar" class="navigation">
+        <nav id="nav-bar" class="navigation">
         
             <div id="menu-left">
                 <ul>
@@ -21,17 +21,17 @@
                 </ul>
             </div>
 
-        <div id="menu-center" class="navigation">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="univers.html">Univers</a></li>
-                <li><a href="score.html">Scores</a></li>
-                <li><a href="about.html">À propos</a></li>
-            </ul>
-        </div>
-        <div id="dropdown">
-            <button onclick="dropdown()" class="dropbtn">Menu</button>
-            <div id="myDropdown" class="dropdown-content">
+            <div id="menu-center" class="navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="univers.html">Univers</a></li>
+                    <li><a href="score.html">Scores</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                </ul>
+            </div>
+            <div id="dropdown">
+                <button onclick="dropdown()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
 
                     <a href="home.html">Home</a>
                     <a href="univers.html">Univers</a>
@@ -40,8 +40,8 @@
                     <a href="../inscription.html">s'inscrire</a>
                     <a href="../connexion.html">se connecter</a>
 
+                </div>
             </div>
-        </div>
 
             
             <div id="menu-right" class="navigation">
@@ -51,37 +51,37 @@
                 </ul>
             </div>
         
-    </nav>
+        </nav>
 
-</header>
+    </header>
     <div id="home">
         <div id="logo-centre">
             <img src="../assets/img/logo_gd.png"/>
         </div>
         <div>
-        <div id="intro">
-            <h1>Space Invaders</h1>
-            <h3>Sauvez la galaxie des Invasions!!</h3><br>
-            <p>Envie d'un peu de divertissement et d'un retour 40 ans en arrière? Faites comme nous 
-                et venez vous éclater sur le jeu mythique!</p>
+            <div id="intro">
+                <h1>Space Invaders</h1>
+                <h3>Sauvez la galaxie des Invasions!!</h3><br>
+                <p>Envie d'un peu de divertissement et d'un retour 40 ans en arrière? Faites comme nous
+                    et venez vous éclater sur le jeu mythique!</p>
         
             
-        </div> 
-            <input type="submit" value="Commencer" id="commencer">
-    </div>
-
-</div>
-        <div id="start">
-            <div id="control">
-            <img src="../assets/img/control.png" alt="control.png">
             </div>
-            <canvas id="game-canvas"></canvas>
-            <script src=" ../js/jeu.js"></script>
+            <input type="submit" value="Commencer" id="commencer">
         </div>
+
+    </div>
+    <div id="start">
+        <div id="control">
+            <img src="../assets/img/control.png" alt="control.png">
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <script src=" ../js/jeu.js"></script>
+    </div>
 
 
 <script src="../js/app.js"></script>
-    </div>
+</div>
 </body>
 
 </html>
