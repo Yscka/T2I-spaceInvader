@@ -223,6 +223,14 @@ th, td {
     margin-top: 2%;
 }
 
+#score h2 {
+    margin-bottom: 1%;
+    color: #f9A918
+}
+#score p {
+    color: #f6e58d;
+}
+
 #vaisseau {
     width:10%;
     position: absolute;
@@ -245,6 +253,12 @@ th, td {
 
 #about h2 {
     margin-bottom: 2%;
+    color: #f9A918
+
+}
+
+#about p {
+    color: #f6e58d;
 }
 
 label {
@@ -310,6 +324,7 @@ article {
 article h2 {
     margin-bottom: 2%;
     font-family: "Roboto-Regular";
+    color: #f9A918;
 }
 
 article p {
