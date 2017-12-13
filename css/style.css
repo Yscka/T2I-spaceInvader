@@ -77,7 +77,7 @@ body{
     font-size: 1.1vw;
 }
 
-.start{
+#start{
     display: none;
 }
 
@@ -127,8 +127,9 @@ header{
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
 }
+
 .navigation li a:hover {
     text-decoration: underline;
     text-decoration-color: #f9A918;
@@ -142,18 +143,26 @@ header{
 #titre {
     font-family: "Roboto-BoldCondensed";
     display: inline-block;
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     margin-left: 10px;
 }
 
+#titre2 {
+    font-size: 1.5vw;
+}
+
+#menu-right li a {
+    font-size: 1vw;
+}
 
 
 /* home.html */
 #logo-centre{
-    width: 50%;
+    width: 20%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
 
 }
 #logo-centre img {
@@ -174,6 +183,8 @@ header{
     margin-bottom: 30px;
 
 }
+
+
 #commencer{
     background: none;
     color: white;
@@ -184,7 +195,15 @@ header{
     text-transform: uppercase;
     width:20%;
     margin: auto;
+    transition-duration: 0.4s;
 }
+
+#commencer:hover {
+    background-color: #f9A918;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 /* score.html */
 table {
     width:40%;
@@ -252,6 +271,28 @@ textarea {
     border:1px solid #5f5f5f;
     padding:10px;
     margin-bottom:25px;
+}
+
+/*univers.html*/
+ 
+article {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article h2 {
+    margin-bottom: 2%;
+    font-family: "Roboto-Regular";
+}
+
+article p {
+    margin-top: 3%;
+}
+
+section {
+    margin-bottom: 5%;
 }
 
 /*MENU*/
