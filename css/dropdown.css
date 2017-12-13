@@ -7,7 +7,7 @@
         display: block;
     }
 
-    #menu-center{
+    #menu-center, #menu-right{
         display: none;
     }
     /* Dropdown Button */
