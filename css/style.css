@@ -77,11 +77,8 @@ body{
     font-size: 1.1vw;
 }
 
-header{
-    border-bottom: 1px solid;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color:black;
+.start{
+    display: none;
 }
 
 #game-canvas{
@@ -97,6 +94,14 @@ p{
 
 
 /* Navigation */
+
+header{
+    border-bottom: 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:black;
+}
+
 #nav-bar {
     margin-top: 20px;
     display:flex;
@@ -250,7 +255,7 @@ textarea {
 }
 
 /*MENU*/
-@media screen and (max-width : 1480px){
+@media screen and (max-width : 968px){
 
     #titre{
 
@@ -265,8 +270,3 @@ textarea {
 
 }
 
-@media screen and (max-width : 1480px){
-
-
-
-}
