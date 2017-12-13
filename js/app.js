@@ -27,7 +27,7 @@ var login = document.getElementById('home');
 var logged = document.getElementById('start');
 btn.onclick= function () {
         home.style.display = 'none';
-        start.style.display ='block';
+        start.style.display ='inline-block';
         logged.appendChild(Welcome);
     };
 
